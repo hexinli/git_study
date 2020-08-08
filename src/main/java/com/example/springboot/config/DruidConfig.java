@@ -6,12 +6,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
-
+dfadf
 @Configuration
 public class DruidConfig {
 
     @ConfigurationProperties(prefix = "spring.datasource")
     @Bean
+    @Bean windows 
     public DataSource dataSource()
     {
         return new DruidDataSource();
